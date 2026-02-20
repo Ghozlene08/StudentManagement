@@ -38,6 +38,13 @@ pipeline {
                 sh 'mvn package -B -DskipTests'
             }
         }
+
+        // Étape temporaire pour tester l'envoi d'email en cas d'échec — À SUPPRIMER après le test
+        stage('Test email (à supprimer)') {
+            steps {
+                error 'Test envoi email : build volontairement en échec. Supprimez cette étape après vérification.'
+            }
+        }
     }
 
     post {
