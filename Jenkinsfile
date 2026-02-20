@@ -9,7 +9,7 @@ pipeline {
 
     environment {
         // Remplacez par votre adresse email pour recevoir les notifications en cas d'échec
-        NOTIFICATION_EMAIL = 'ghozlene.nezhi@esprit.tn'
+        NOTIFICATION_EMAIL = 'ghozlene.nezhi@gmail.com'
     }
 
     stages {
