@@ -17,7 +17,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Récupération du projet depuis GitHub...'
-                git branch: 'main', url: 'https://github.com/Ghozlene08/StudentManagement.git'
+                git branch: 'master', url: 'https://github.com/Ghozlene08/StudentManagement.git'
             }
         }
 
